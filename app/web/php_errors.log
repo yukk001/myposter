@@ -1,0 +1,150 @@
+[10-Jun-2017 16:27:54 Asia/Shanghai] PHP Warning:  fopen(/var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php.lock): failed to open stream: No such file or directory in /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php on line 179
+[10-Jun-2017 16:27:54 Asia/Shanghai] PHP Fatal error:  Uncaught RuntimeException: Unable to acquire exclusive lock '/var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php.lock'. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php:181
+Stack trace:
+#0 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(94): Latte\Engine->loadTemplate('/var/www/html/m...')
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(70): Latte\Engine->createTemplate('/var/www/html/m...', Array)
+#2 /var/www/html/myposter/app/controllers/BaseController.php(45): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#3 /var/www/html/myposter/app/controllers/TodotechController.php(23): app\controllers\BaseController->render('todo/index', Array)
+#4 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodotechController->index('')
+#5 /var/www/html/myposter/app/web/index.php(23): runAction('todotech', 'index', Array)
+#6 /var/www/html/myposter/app/web/index.php(36): {closure}('todotech', 'index')
+#7 {main}
+  thrown in /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php on line 181
+[10-Jun-2017 16:33:17 Asia/Shanghai] PHP Fatal error:  Uncaught RuntimeException: Missing template file '/var/www/html/myposter/app/views/todo/index.latte'. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Loaders/FileLoader.php:41
+Stack trace:
+#0 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(111): Latte\Loaders\FileLoader->getContent('/var/www/html/m...')
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(185): Latte\Engine->compile('/var/www/html/m...')
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(94): Latte\Engine->loadTemplate('/var/www/html/m...')
+#3 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(70): Latte\Engine->createTemplate('/var/www/html/m...', Array)
+#4 /var/www/html/myposter/app/controllers/BaseController.php(45): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#5 /var/www/html/myposter/app/controllers/TodotechController.php(23): app\controllers\BaseController->render('todo/index', Array)
+#6 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodotechControl in /var/www/html/myposter/vendor/latte/latte/src/Latte/Loaders/FileLoader.php on line 41
+[10-Jun-2017 16:46:18 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:46:50 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:02 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:02 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:03 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:03 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:03 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:03 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 16:50:03 Asia/Shanghai] PHP Notice:  Undefined variable: items in /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php on line 21
+[10-Jun-2017 17:04:01 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:26 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:27 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:27 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:27 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:27 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:28 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:28 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:28 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:28 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:28 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
+[10-Jun-2017 17:04:52 Asia/Shanghai] PHP Fatal error:  Uncaught LogicException: Filter 'id' is not defined. in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php:133
+Stack trace:
+#0 /var/www/html/myposter/app/storage/views/views-todo-index.latte--d34b0f1366.php(23): Latte\Runtime\FilterExecutor->Latte\Runtime\{closure}(Object(app\models\Todo))
+#1 /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/Template.php(198): Templated34b0f1366->main()
+#2 /var/www/html/myposter/vendor/latte/latte/src/Latte/Engine.php(71): Latte\Runtime\Template->render()
+#3 /var/www/html/myposter/app/controllers/BaseController.php(44): Latte\Engine->render('/var/www/html/m...', Array, NULL)
+#4 /var/www/html/myposter/app/controllers/TodoController.php(35): app\controllers\BaseController->render('todo/index', Array)
+#5 /var/www/html/myposter/app/web/index.php(76): app\controllers\TodoController->index()
+#6 /var/www/html/myposter/app/web/index.php(17): runAction('todo', 'index', Array)
+#7 /var/www/html/myposter/app/web/index.php(36): {closure}('todo', 'inde in /var/www/html/myposter/vendor/latte/latte/src/Latte/Runtime/FilterExecutor.php on line 133
