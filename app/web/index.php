@@ -8,10 +8,9 @@ define('SITE_URL', 'http://' . $_SERVER['HTTP_HOST'] . substr($_SERVER['PHP_SELF
 date_default_timezone_set('Asia/Shanghai');
 require APP_ROOT . '/../vendor/autoload.php';
 
-//var_dump(APP_ROOT . '/../vendor/autoload.php');exit;
 
 $router = new AltoRouter();
-
+require APP_ROOT . '/config/router.php';
 //添加默认路由规则
 $router->map('GET|POST', '/[a:controllerName]/[a:actionName]', function ($controllerName, $actionName) {
     runAction($controllerName, $actionName, []);
@@ -22,6 +21,8 @@ $router->map('GET|POST', '/[a:controllerName]/[a:actionName]/?[**:]', function (
     $args = array_slice($args, 3);
     runAction($controllerName, $actionName, $args);
 });
+
+
 
 $match = $router->match();
 
@@ -64,10 +65,11 @@ if (is_callable($match['target'])) {
 //	header( $_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
 //}
 
-function runAction($controllerName, $actionName, $args)
+function runAction($controllerName, $actionName, $args,$type ='Controller')
 {
     // echo $controllerName;
-    $controllerClass = '\app\controllers\\' . ucfirst($controllerName) . 'Controller';
+    $controllerClass = '\app\\'.strtolower($type).'s\\' . ucfirst($controllerName) .ucfirst($type);
+//var_dump($controllerClass);
     if (!class_exists($controllerClass)) {
         exit($controllerName . ' Class Not Found!');
     }
@@ -77,6 +79,7 @@ function runAction($controllerName, $actionName, $args)
     } else {
         exit($actionName . ' Action Not Found!');
     }
+
 }
 
 ?>

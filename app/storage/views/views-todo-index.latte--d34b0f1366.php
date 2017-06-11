@@ -15,7 +15,7 @@ class Templated34b0f1366 extends Latte\Runtime\Template
     <title>详情页</title>
 </head>
 <body>
-<table>11
+<table>
 <?php
 		$iterations = 0;
 		foreach ($todos as $item) {
@@ -25,7 +25,6 @@ class Templated34b0f1366 extends Latte\Runtime\Template
 		}
 ?>
 </table>
-
 </body>
 </html>
 <?php
