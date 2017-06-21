@@ -62,3 +62,36 @@ Stack trace:
 #3 /var/www/html/myposter/app/web/index.php(37): {closure}('out', 'show')
 #4 {main}
   thrown in /var/www/html/myposter/app/apis/CommonApi.php on line 25
+[12-Jun-2017 11:15:48 Asia/Shanghai] PHP Notice:  Undefined index: username in /var/www/html/myposter/app/apis/ImagehandleApi.php on line 24
+[12-Jun-2017 21:56:40 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Aura\Filter\FilterFactory' not found in /var/www/html/myposter/app/apis/CommonApi.php:25
+Stack trace:
+#0 /var/www/html/myposter/app/apis/OutApi.php(12): app\apis\CommonApi->fileter()
+#1 /var/www/html/myposter/app/web/index.php(78): app\apis\outApi->show()
+#2 /var/www/html/myposter/app/config/router.php(3): runAction('out', 'show', Array, 'Api')
+#3 /var/www/html/myposter/app/web/index.php(37): {closure}('out', 'show')
+#4 {main}
+  thrown in /var/www/html/myposter/app/apis/CommonApi.php on line 25
+[12-Jun-2017 21:57:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Aura\Filter\FilterFactory' not found in /var/www/html/myposter/app/apis/CommonApi.php:25
+Stack trace:
+#0 /var/www/html/myposter/app/apis/OutApi.php(12): app\apis\CommonApi->fileter()
+#1 /var/www/html/myposter/app/web/index.php(78): app\apis\outApi->show()
+#2 /var/www/html/myposter/app/config/router.php(3): runAction('out', 'show', Array, 'Api')
+#3 /var/www/html/myposter/app/web/index.php(37): {closure}('out', 'show')
+#4 {main}
+  thrown in /var/www/html/myposter/app/apis/CommonApi.php on line 25
+[12-Jun-2017 21:57:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Aura\Filter\FilterFactory' not found in /var/www/html/myposter/app/apis/CommonApi.php:25
+Stack trace:
+#0 /var/www/html/myposter/app/apis/OutApi.php(12): app\apis\CommonApi->fileter()
+#1 /var/www/html/myposter/app/web/index.php(78): app\apis\outApi->show()
+#2 /var/www/html/myposter/app/config/router.php(3): runAction('out', 'show', Array, 'Api')
+#3 /var/www/html/myposter/app/web/index.php(37): {closure}('out', 'show')
+#4 {main}
+  thrown in /var/www/html/myposter/app/apis/CommonApi.php on line 25
+[12-Jun-2017 21:59:39 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Aura\Filter\FilterFactory' not found in /var/www/html/myposter/app/apis/CommonApi.php:25
+Stack trace:
+#0 /var/www/html/myposter/app/apis/OutApi.php(12): app\apis\CommonApi->fileter()
+#1 /var/www/html/myposter/app/web/index.php(78): app\apis\outApi->show()
+#2 /var/www/html/myposter/app/config/router.php(3): runAction('out', 'show', Array, 'Api')
+#3 /var/www/html/myposter/app/web/index.php(37): {closure}('out', 'show')
+#4 {main}
+  thrown in /var/www/html/myposter/app/apis/CommonApi.php on line 25
