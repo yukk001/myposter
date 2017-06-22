@@ -1,0 +1,2 @@
+this is a file to test git 
+i want to git add this dir;
