@@ -12,11 +12,9 @@ namespace app\controllers;
 class MypageController extends BaseController
 {
 
-
-
     public function index()
     {
-
+        return $this->render('mypage/index');//, ['todos' => $todos]
     }
 
 }
