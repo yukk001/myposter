@@ -138,3 +138,22 @@ jQuery.extend( jQuery.easing,
 		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
 	}
 });
+
+
+
+$(document).ready(function () {
+	$(".scroll").click(function (event) {
+		event.preventDefault();
+		$('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+	});
+	/*
+	 var defaults = {
+	 containerID: 'toTop', // fading element id
+	 containerHoverID: 'toTopHover', // fading element hover id
+	 scrollSpeed: 1200,
+	 easingType: 'linear'
+	 };
+	 */
+	$().UItoTop({easingType: 'easeOutQuart'});
+
+});
