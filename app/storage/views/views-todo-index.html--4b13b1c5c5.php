@@ -1,9 +1,9 @@
 <?php
-// source: /var/www/html/myposter/app/views/todo/index.latte
+// source: /var/www/html/myposter/app/views/todo/index.html
 
 use Latte\Runtime as LR;
 
-class Templated34b0f1366 extends Latte\Runtime\Template
+class Template4b13b1c5c5 extends Latte\Runtime\Template
 {
 
 	function main()

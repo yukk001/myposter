@@ -40,7 +40,7 @@ class BaseController
     public function render($name, array $params = [], $block = NULL)
     {
         $params['sitename'] = ' framework';
-        $tplFile = APP_ROOT . '/views/' . $name . '.latte';
+        $tplFile = APP_ROOT . '/views/' . $name . '.html';
         $this->latte->render($tplFile, $params, $block);
     }
 
