@@ -171,7 +171,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!--Skills-starts-here -->
 <div class="wthreeskills" id="skills">
     <div class="container-fluid">
-        <h3>MY SKILLS</h3>
+        <h3>我的技能</h3>
 
         <div class="wthreeskills-grids">
             <div class="col-md-6 wthreeskills-grid wthreeskills-grid-2">
@@ -404,60 +404,60 @@ class Template9c661ae86a extends Latte\Runtime\Template
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="l_g">
-                        <div class="l_g_r g_r">
-                            <div class="work">
-                                <h4 class="title title2">EDUCATION</h4>
+                <!--<li>-->
+                    <!--<div class="l_g">-->
+                        <!--<div class="l_g_r g_r">-->
+                            <!--<div class="work">-->
+                                <!--<h4 class="title title2">EDUCATION</h4>-->
 
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-left">
-                                        <h4>2007-2009</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-right">
-                                        <h5 class="univ">Post Graduate</h5>
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-left">-->
+                                        <!--<h4>2007-2009</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-right">-->
+                                        <!--<h5 class="univ">Post Graduate</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-right work-right2">
-                                        <h4>2003-2007</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-left work-left2">
-                                        <h5>Graduate</h5>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-right work-right2">-->
+                                        <!--<h4>2003-2007</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-left work-left2">-->
+                                        <!--<h5>Graduate</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-left">
-                                        <h4>1994-2003</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-right">
-                                        <h5 class="sch">School</h5>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-left">-->
+                                        <!--<h4>1994-2003</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-right">-->
+                                        <!--<h5 class="sch">School</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</li>-->
             </ul>
-            <div class="wow fadeInUp" id="loadMore">Show More <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-            <div class="wow fadeInDown" id="showLess">Show Less <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </div>
+            <!--<div class="wow fadeInUp" id="loadMore">Show More <i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+            <!--</div>-->
+            <!--<div class="wow fadeInDown" id="showLess">Show Less <i class="fa fa-chevron-up" aria-hidden="true"></i>-->
+            <!--</div>-->
         </div>
     </div>
 </div>
@@ -466,7 +466,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!-- Portfolio-starts-here -->
 <div id="portfolio" class="portfolio">
     <div class="container">
-        <h3 class="agile-title">My Projects</h3>
+        <h3 class="agile-title">项目经历</h3>
 
         <div class="gallery_gds">
             <div class="filtr-container">
@@ -523,7 +523,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 
 <!-- contact-starts-here -->
 <div class="contact" id="contact">
-    <h3 class="agile-contact"> Contact Me</h3>
+    <h3 class="agile-contact">联系我</h3>
 
     <div class="contact-agile">
         <div class="map">
