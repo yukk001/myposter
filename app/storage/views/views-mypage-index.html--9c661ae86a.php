@@ -13,10 +13,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>于照熙</title>
-
-    <!-- meta-tags -->
+    <title>于照熙--个人主页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="">
@@ -49,9 +46,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
     </div>
     <div class="container">
         <div class="banner-info-w3l">
-            <h3>Lorem ipsum</h3>
+            <h3>踽踽独行，笑迎风雨</h3>
 
-            <h2>于照熙->php是我正在用的语言</h2>
+            <h2>于照熙->php程序猿</h2>
             <h4><a class="scroll" href="#about">关于我</a></h4>
         </div>
     </div>
@@ -73,12 +70,12 @@ class Template9c661ae86a extends Latte\Runtime\Template
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
-                    <li><a class="scroll2" href="http://www.yuzhaoxi.com/mypage/index"><span data-hover="Home">Home</span></a></li>
-                    <li><a class="scroll" href="#about"><span data-hover="About">About</span></a></li>
-                    <li><a class="scroll" href="#skills"><span data-hover="Skills">Skills</span></a></li>
-                    <li><a class="scroll" href="#experience"><span data-hover="Experience">Experience</span></a></li>
-                    <li><a class="scroll" href="#portfolio"><span data-hover="Projects">Projects</span></a></li>
-                    <li><a class="scroll" href="#contact"><span data-hover="Contact">Contact</span></a></li>
+                    <li><a class="scroll2" href="http://www.yuzhaoxi.com/mypage/index"><span data-hover="Home">首页</span></a></li>
+                    <li><a class="scroll" href="#about"><span data-hover="About">相关</span></a></li>
+                    <li><a class="scroll" href="#skills"><span data-hover="Skills">技能</span></a></li>
+                    <li><a class="scroll" href="#experience"><span data-hover="Experience">经历</span></a></li>
+                    <li><a class="scroll" href="#portfolio"><span data-hover="Projects">项目</span></a></li>
+                    <li><a class="scroll" href="#contact"><span data-hover="Contact">联系我</span></a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div><!-- /.navbar-collapse -->
@@ -93,7 +90,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!-- About-starts-here -->
 <div class="about" id="about">
     <div class="container">
-        <h3 class="w3l_head">About Me</h3>
+        <h3 class="w3l_head">关于我</h3>
 
         <div class="w3l-grids-about">
             <div class="col-md-5 w3ls-ab-right">
@@ -111,8 +108,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
                         <div class="text-w3l">
                             <h4>PHP 开发攻城狮</h4>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum
-                                velit.Lorem ipsum dolor sit amet.</p>
+                            <p>
+
+                            </p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -173,7 +171,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!--Skills-starts-here -->
 <div class="wthreeskills" id="skills">
     <div class="container-fluid">
-        <h3>MY SKILLS</h3>
+        <h3>我的技能</h3>
 
         <div class="wthreeskills-grids">
             <div class="col-md-6 wthreeskills-grid wthreeskills-grid-2">
@@ -308,7 +306,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!-- services-starts-here -->
 <div class="services" id="service">
     <div class="container">
-        <h3 class="agileits-title">MY INTERESTS</h3>
+        <h3 class="agileits-title">我的兴趣爱好</h3>
 
         <div class="services-w3ls-row">
             <div class="col-md-3 services-grids">
@@ -316,9 +314,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
                     <div class="icon-holder">
                         <span class="glyphicon glyphicon-queen" aria-hidden="true"></span>
                     </div>
-                    <h4 class="mission">Sports </h4>
+                    <h4 class="mission">游泳</h4>
 
-                    <p class="description">Scelerisque Praesent</p>
+                    <p class="description">喜欢水里安静的感觉，目前水平为爱好者水平~~</p>
                 </div>
             </div>
             <div class="col-md-3 services-grids">
@@ -326,9 +324,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
                     <div class="icon-holder">
                         <span class="fa fa-gears icon" aria-hidden="true"></span>
                     </div>
-                    <h4 class="mission">Article</h4>
+                    <h4 class="mission">文章</h4>
 
-                    <p class="description">Scelerisque Praesent</p>
+                    <p class="description">偶尔写一些日记或者记录对应处理方案等有趣的事情</p>
                 </div>
             </div>
             <div class="col-md-3 services-grids">
@@ -336,9 +334,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
                     <div class="icon-holder">
                         <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
                     </div>
-                    <h4 class="mission">Web Design</h4>
+                    <h4 class="mission">程序开发</h4>
 
-                    <p class="description">Scelerisque Praesent</p>
+                    <p class="description">喜欢这样一句话：程序是最值得信赖的，因为0就是0,1就是1</p>
                 </div>
             </div>
             <div class="col-md-3 services-grids">
@@ -346,9 +344,9 @@ class Template9c661ae86a extends Latte\Runtime\Template
                     <div class="icon-holder">
                         <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
                     </div>
-                    <h4 class="mission">Music</h4>
+                    <h4 class="mission">音乐</h4>
 
-                    <p class="description">Scelerisque Praesent</p>
+                    <p class="description">喜欢80-90年代流行音乐，偶尔和朋友一起K歌算是半个麦霸</p>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -361,7 +359,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <div class="aitsresumewthree" id="experience">
     <div class="container">
         <div class="aitsresumewthree-tag">
-            <h3 class="title">MY EXPERIENCE</h3>
+            <h3 class="title">我的任职经历</h3>
         </div>
         <div class="load_more">
             <ul id="myList">
@@ -371,40 +369,34 @@ class Template9c661ae86a extends Latte\Runtime\Template
                             <div class="work">
                                 <div class="work-info">
                                     <div class="col-md-6 work-grid work-left">
-                                        <h4>2012 - 2016</h4>
+                                        <h4>2015 - 至今</h4>
                                     </div>
                                     <div class="col-md-6 work-grid work-right">
-                                        <h5>Company 3</h5>
+                                        <h5>一九零五（北京）网络科技有限公司</h5>
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+                                        <p>现在的工作：</p>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="work-info">
                                     <div class="col-md-6 work-grid work-right work-right2">
-                                        <h4>2011 - 2012</h4>
+                                        <h4>2013 - 2015</h4>
                                     </div>
                                     <div class="col-md-6 work-grid work-left work-left2">
-                                        <h5>Company 2</h5>
+                                        <h5>北京数字通软件有限公司</h5>
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+                                        <p>毕业以后的第一份工作，</p>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="work-info">
                                     <div class="col-md-6 work-grid work-left">
-                                        <h4>2009 - 2011</h4>
+                                        <h4>2011 - 2011</h4>
                                     </div>
                                     <div class="col-md-6 work-grid work-right">
-                                        <h5 class="comp">Company 1</h5>
+                                        <h5 class="comp">廊坊世纪光华科技有限公司</h5>
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+                                        <p>在该公司以实习生的身份工作两个月。之所以记录这个经历是时时刻刻提醒我，这是我第一家以程序研发者的身份工作的单位~~~</p>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -412,60 +404,60 @@ class Template9c661ae86a extends Latte\Runtime\Template
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="l_g">
-                        <div class="l_g_r g_r">
-                            <div class="work">
-                                <h4 class="title title2">EDUCATION</h4>
+                <!--<li>-->
+                    <!--<div class="l_g">-->
+                        <!--<div class="l_g_r g_r">-->
+                            <!--<div class="work">-->
+                                <!--<h4 class="title title2">EDUCATION</h4>-->
 
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-left">
-                                        <h4>2007-2009</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-right">
-                                        <h5 class="univ">Post Graduate</h5>
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-left">-->
+                                        <!--<h4>2007-2009</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-right">-->
+                                        <!--<h5 class="univ">Post Graduate</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-right work-right2">
-                                        <h4>2003-2007</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-left work-left2">
-                                        <h5>Graduate</h5>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-right work-right2">-->
+                                        <!--<h4>2003-2007</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-left work-left2">-->
+                                        <!--<h5>Graduate</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="work-info">
-                                    <div class="col-md-6 work-grid work-left">
-                                        <h4>1994-2003</h4>
-                                    </div>
-                                    <div class="col-md-6 work-grid work-right">
-                                        <h5 class="sch">School</h5>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                                <!--<div class="work-info">-->
+                                    <!--<div class="col-md-6 work-grid work-left">-->
+                                        <!--<h4>1994-2003</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-6 work-grid work-right">-->
+                                        <!--<h5 class="sch">School</h5>-->
 
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                                        <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium-->
+                                            <!--doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore-->
+                                            <!--veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</li>-->
             </ul>
-            <div class="wow fadeInUp" id="loadMore">Show More <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-            <div class="wow fadeInDown" id="showLess">Show Less <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </div>
+            <!--<div class="wow fadeInUp" id="loadMore">Show More <i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+            <!--</div>-->
+            <!--<div class="wow fadeInDown" id="showLess">Show Less <i class="fa fa-chevron-up" aria-hidden="true"></i>-->
+            <!--</div>-->
         </div>
     </div>
 </div>
@@ -474,7 +466,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <!-- Portfolio-starts-here -->
 <div id="portfolio" class="portfolio">
     <div class="container">
-        <h3 class="agile-title">My Projects</h3>
+        <h3 class="agile-title">项目经历</h3>
 
         <div class="gallery_gds">
             <div class="filtr-container">
@@ -531,7 +523,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 
 <!-- contact-starts-here -->
 <div class="contact" id="contact">
-    <h3 class="agile-contact"> Contact Me</h3>
+    <h3 class="agile-contact">联系我</h3>
 
     <div class="contact-agile">
         <div class="map">
@@ -594,9 +586,7 @@ class Template9c661ae86a extends Latte\Runtime\Template
 <div class="copy-section">
     <div class="container">
         <div class="footer-top">
-            <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank"
-                                                                         href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
-            </p>
+            <p></p>
         </div>
     </div>
 </div>
