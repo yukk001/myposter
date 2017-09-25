@@ -21,7 +21,9 @@ $router->map('GET|POST', '/[a:controllerName]/[a:actionName]/?[**:]', function (
     $args = array_slice($args, 3);
     runAction($controllerName, $actionName, $args);
 });
-
+$router->map('GET|POST', '', function ($controllerName, $actionName) {
+    runAction($controllerName, $actionName, []);
+});
 
 
 $match = $router->match();
