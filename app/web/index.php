@@ -65,7 +65,7 @@ if (is_callable($match['target'])) {
 //	header( $_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
 //}
 
-function runAction($controllerName, $actionName, $args,$type ='Controller')
+function runAction($controllerName='index', $actionName='index', $args,$type ='Controller')
 {
     // echo $controllerName;
     $controllerClass = '\app\\'.strtolower($type).'s\\' . ucfirst($controllerName) .ucfirst($type);
