@@ -9,7 +9,7 @@ class IndexController extends BaseController
 
     public function index()
     {
-        return $this->render('mypage/index',['msg'=>1111111]);//, ['todos' => $todos]
+        return $this->render('index/index',['msg'=>1111111]);//, ['todos' => $todos]
     }
 
 }
